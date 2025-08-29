@@ -5,7 +5,7 @@ let action = document.getElementById("action");
 
 action.addEventListener("click", function submitLogin (e) {
     e.preventDefault()
-  if (email.value === "abc123@gmail.com" && password.value === "123456") {
+  if (email.value === " " && password.value === "123456") {
     alert("acesso autorizado!")
 } else {
     alert("Verifique o login e a senha e tente novamente!")

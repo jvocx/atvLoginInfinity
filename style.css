@@ -1,0 +1,111 @@
+body {
+  background-color: grey;
+}
+
+header {
+    background-color:white;
+  display: flex; 
+  align-items: center;
+  
+}
+
+.logo {
+
+  height: 100px;
+  width: 150px;
+  margin-right: auto;
+ 
+}
+
+main {
+ 
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+}
+
+div {
+  position: relative; 
+  margin-bottom: 15px;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+.iconEmail, .iconPassword {
+  position: absolute; 
+  left: 10px;
+  top: 50%; 
+  transform: translateY(-50%); 
+  color: #888;
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+#action, #actionRegister, #forgotPassword {
+  width: 221px;
+  height: 37px;
+  text-decoration: none;
+}
+
+#actionRegister a {
+ color: black;
+  text-decoration: none;
+}
+
+#forgotPassword a {
+ color: black;
+  text-decoration: none;
+}
+
+#action:hover {
+
+  color: whitesmoke;
+  background-color: #0056b3;
+}
+ #actionRegister:hover{
+  color: black;
+  background-color:cyan;
+}
+#forgotPassword:hover {
+     color: black;
+  background-color: greenyellow;
+}
+
+footer{
+
+}
+
+footer .copyright {
+    text-align: center;
+}
+.socialmedia-gallery{
+display: flex;
+justify-content: right;
+}
+.socialmedia-gallery img{
+    padding: 5px;
+    width: 64px;
+    height: 64px;
+}
+
+.socialmedia-gallery img:hover{
+transform: scale(1.17);
+transition: transform 0.7s ease;
+}
