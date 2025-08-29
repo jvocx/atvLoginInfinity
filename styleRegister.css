@@ -1,0 +1,39 @@
+body {
+  background-color: grey;
+}
+
+header {
+    background-color:white;
+  display: flex; 
+  align-items: center;
+  
+}
+
+main {
+ 
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+}
+
+footer{
+
+}
+
+footer .copyright {
+    text-align: center;
+}
+.socialmedia-gallery{
+display: flex;
+justify-content: right;
+}
+.socialmedia-gallery img{
+    padding: 5px;
+    width: 64px;
+    height: 64px;
+}
+
+.socialmedia-gallery img:hover{
+transform: scale(1.17);
+transition: transform 0.7s ease;
+}
